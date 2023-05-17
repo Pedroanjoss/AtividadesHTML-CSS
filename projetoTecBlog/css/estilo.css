@@ -1,0 +1,88 @@
+*{margin: 0px;
+  padding: 0px;}
+
+body{font-size: 1em;
+     font-family: "Trebuchet MS", Helvetica, sans-serif;
+     background: #e6e6e6;}  
+
+/*    Layout   	*/
+
+#areaCabecalho{background: #f7b600;
+	           padding: 15px;
+	           text-align: center;}
+
+#areaLogo, #areaMenu{ padding: 10px;}
+
+/*Formatacao Menu*/
+
+a{text-decoration: none;}
+
+#areaCabecalho a:link, #areaCabecalho a:visited{color: white;
+                  padding: 10px 12px;}               
+
+#areaCabecalho a:hover{background: white 20px;
+	                    color: #f7b600 ;
+	                   text-decoration: none}
+
+a:link, a:visited{ color: #f7b600  } 
+
+a:hover{ text-decoration: underline;}	    
+
+/*Formataçoes em Geral*/
+
+h1{color: #4e4e4e;
+   font-size: 2.5em;}
+
+h2{color:  #f7b600;
+   }
+
+h3{ color: #565656;   
+	background: #CCC;
+	padding: 5px;}
+
+.dataPostagem{font-size: 0.8em;
+	          border-bottom: 1px solid #f4f4f4;
+	          padding-bottom: 10px;
+	          margin-bottom: 10px;
+	          display: block;}
+
+
+
+.branco{color: #FFF;}   
+
+/*Area Principal*/
+
+#areaPrincipal{padding: 15px;
+	           width: 920px;
+	           margin: 0px auto;}
+
+#areaPostagens{ width:660px;
+               float:left;
+               }
+
+#areaLateral{width: 240px;
+			float: right;	
+             }	           
+
+#rodape{background: #CCC;
+	    text-align: center;
+	    font-weight: bold 900px;
+	    clear: both;
+	    padding: 15px}
+
+/*O rodapé tem q ficar dentro do espaçamento principal,
+       para ocupar todos os 920px  */
+
+.postagem{ padding: 20px;
+           margin-bottom:20px ; 
+           background: white;}
+
+.textoLateral {background: white;
+                  padding: 10px;
+                  margin-bottom: 0px;
+                font-size: 0.8em;
+              border-bottom: 1px dotted #CCC;}   
+
+.conteudoLateral { background: white;
+                  padding: 10px;
+                  }                     
